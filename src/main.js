@@ -109,7 +109,7 @@ document
 const dataEstadistic = computeStats(data);
 const selectEstadistic = document.getElementById("movementEstadistic");
 document
-  .querySelector("#button-statistic")
+  .querySelector("#button-stats")
   .addEventListener("click", function () {
     if (selectEstadistic.style.display === "block") {
       selectEstadistic.style.display = "none";
