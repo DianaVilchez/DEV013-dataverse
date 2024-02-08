@@ -37,7 +37,7 @@ for (const artwork of data) {
   if (!movementList.includes(movement)) {
     //Incluye solo las corrientes diferentes
     movementList.push(movement); //Push para agregar en el array
-    movementList.sort();
+    movementList.sort(); /*por que sort*/
   }
 }
 // Incluir lista en las opciones de filtrado
@@ -56,7 +56,7 @@ document
     const artistDisplay = event.target.value;
     document.querySelector("#artmovement-filter").value = "Corrientes";
     document.querySelector("#alphabetical-order").value = "Ordenar";
-    const artistCards = filterData(currentData, "artistName", artistDisplay);
+    const artistCards = filterData(data, "artistName", artistDisplay);
     currentData = [...artistCards];
     const filteredCards = renderItems(artistCards);
     const clearScreen = document.querySelector("#root");

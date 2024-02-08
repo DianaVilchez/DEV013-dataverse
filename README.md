@@ -10,7 +10,7 @@
 * [6. Criterios de aceptación mínimos del proyecto](#6-criterios-de-aceptación-mínimos-del-proyecto)
 * [7. Hacker edition](#7-hacker-edition)
 * [8. Objetivos de aprendizaje](#8-objetivos-de-aprendizaje)
-  [9. Diseño](#9-diseño)
+*  [9. Diseño](#9-diseño)
 * [10. Proyecto Final](#10-proyecto-final)
 * [11. Pistas, tips y lecturas complementarias](#11-pistas-tips-y-lecturas-complementarias)
 * [12. Consideraciones para pedir tu Project Feedback](#12-consideraciones-para-pedir-tu-project-feedback)
